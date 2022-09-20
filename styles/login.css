@@ -1,0 +1,40 @@
+#form {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid gray;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+#form input {
+  height: 40px;
+  width: 90%;
+}
+
+#form button {
+  cursor: pointer;
+  width: 25%;
+  height: 30px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+}
+
+#navbar h2 {
+  margin: 0 10px;
+}

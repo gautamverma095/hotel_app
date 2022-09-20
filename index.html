@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <h2>Hotel App</h2>
+      <input
+        type="text"
+        placeholder="Search hotels"
+        id="query"
+        onkeypress="enter(event)"
+      />
+      <div id="login-signup">
+        <a href="./login.html" id="login">Log-In</a>
+        <a href="./signup.html" id="signup">Sign-Up</a>
+      </div>
+    </div>
+    <div id="sorting">
+      <button id="sort_lth" onclick="sortLTH()">Price Low to High</button>
+      <button id="sort_htl" onclick="sortHTL()">Price High to Low</button>
+      <button id="filter_ac" onclick="filterAC()">AC</button>
+      <button id="filter_nonac" onclick="filterNonAC()">Non AC</button>
+    </div>
+    <div id="text">
+      <h1>Search Hotels by City</h1>
+    </div>
+    <div id="hotels-list"></div>
+  </body>
+</html>
+<script src="./scripts/index.js"></script>
